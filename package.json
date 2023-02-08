@@ -1,0 +1,22 @@
+{
+  "name": "pomegranate-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "pomegranate-cli": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiliuzi8686/pomegranate-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiliuzi8686/pomegranate-cli/issues"
+  },
+  "homepage": "https://github.com/shiliuzi8686/pomegranate-cli#readme"
+}
