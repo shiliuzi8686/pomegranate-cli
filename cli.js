@@ -10,7 +10,8 @@ const inquirer = require('inquirer')
 console.log("ting-node-cli working");
 inquirer.prompt([
     {
-        type:""
+        type:"input",
+        
     }
 ])
 
