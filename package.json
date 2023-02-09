@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/shiliuzi8686/pomegranate-cli/issues"
   },
-  "homepage": "https://github.com/shiliuzi8686/pomegranate-cli#readme"
+  "homepage": "https://github.com/shiliuzi8686/pomegranate-cli#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
 }

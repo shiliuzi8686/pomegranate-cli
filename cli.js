@@ -4,5 +4,13 @@
 // 如果是Linux或者 macOS 系统下还需要修改此文件的读写权限微 755
 // 具体就是通过 chmod 755 cli.js 实现修改
 
+const inquirer = require('inquirer')
+
 // 用于检查入口文件是否正常执行
 console.log("ting-node-cli working");
+inquirer.prompt([
+    {
+        type:""
+    }
+])
+
