@@ -1,6 +1,6 @@
 {
   "name": "xxt-cli",
-  "type":"module",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/shiliuzi8686/pomegranate-cli#readme",
   "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
     "inquirer": "^9.1.4"
   }
 }

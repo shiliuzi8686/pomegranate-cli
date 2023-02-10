@@ -5,11 +5,32 @@
 // 具体就是通过 chmod 755 cli.js 实现修改
 
 // const inquirer = require('inquirer')
-import inquirer from "inquirer"
+import inquirer from "inquirer" //命令行交互工具
+import { Command } from "commander" //自定义命令行指令
+const program = new Command()
+import chalk from 'chalk'
+
 
 const log = console.log
 
 // 用于检查入口文件是否正常执行
+// program
+//     .option('-d, --debug', 'output extra debugging')
+//     .option('-s, --small', 'small pizza size')
+//     .option('-p, --pizza-type <type>', 'flavour of pizza')
+// log(program.argv)
+// program.parse()
+program
+.version('0.0.1')
+.command('create <name>')
+.description('创建一个项目')
+.action(name => {
+    log('项目名字是：',name)
+    // 背景色
+    log("project name is " + chalk.bgRed(name))
+})
+program.parse()
+
 console.log("ting-node-cli working");
 inquirer.prompt([
     {
