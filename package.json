@@ -1,10 +1,11 @@
 {
-  "name": "pomegranate-cli",
+  "name": "xxt-cli",
+  "type":"module",
   "version": "1.0.0",
   "description": "",
-  "main": "cli.js",
+  "main": "main.js",
   "bin": {
-    "pomegranate-cli": "cli.js"
+    "xxt-cli": "main.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
